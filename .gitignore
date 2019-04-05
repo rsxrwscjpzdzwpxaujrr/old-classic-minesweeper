@@ -1,0 +1,7 @@
+*
+!.gitignore
+!/main.cpp
+!/CMakeLists.txt
+!/README.md
+!/COPYING
+!/screenshot.png
