@@ -671,7 +671,7 @@ int main(int argc, char **argv)
 {
     windowSize.x = 512;
     windowSize.y = 512;
-    srand(time_t(NULL));
+    srand(std::time(NULL));
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
     glutInitWindowSize(windowSize.x, windowSize.y);
